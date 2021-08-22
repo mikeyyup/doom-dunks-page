@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  display: block;
+  font-family: 'Special Elite', sans-serif;
+}
+
+div {
+  display: block;
+}
+.nav-bar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: block;
+  height: 2rem;
+  font-size: 1.5rem;
+}
+
+.cntr {
+  padding: 0 3rem;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.nav-left {
+  width: 100%;
+  align-items: center;
+  display: flex;
+  justify-content: flex-start;
+}
+
+li {
+  padding: 0 2rem;
+  list-style-type: none;
+}
+
+.logo-partent {
+  margin: 0.5rem 0;
+  flex-shrink: 0;
+}
+
+.nav-logo {
+  width: 7.5rem;
+}
+
+.nav-list {
+  align-items: flex-start;
+  display: flex;
+
+  padding: 0 0 0 5%;
+  width: 100%;
+}
+
+.nav-right {
+  width: 20%;
+  padding-right: 2rem;
+  justify-content: flex-end;
+}
+
+.btn-shop {
+  position: relative;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.about {
+  margin-top: 8rem;
+  padding: 0 5rem;
+}
+
+.split {
+  display: flex;
+  align-items: center;
+  padding: 2rem;
+}
+
+div > img,
+div {
+  padding: 2rem;
+}
+
+section > div > img {
+  width: 50%;
+}
+
+.title {
+  padding: 0 2rem 2rem 2rem;
+  font-size: 2.5rem;
+}
+p {
+  line-height: 2rem;
+}
