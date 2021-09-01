@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:wght@100&family=Sedgwick+Ave&display=swap');
 
+:root {
+  --border: 4px red solid;
+}
 * {
   box-sizing: border-box;
   padding: 0;
@@ -10,8 +15,18 @@ body {
   display: block;
   font-family: 'Special Elite', sans-serif;
 }
+/* .nav-bar,
+.nav-left,
+.logo-partent,
+.nav-logo,
+.nav-list,
+.nav-items,
+.nav-right,
+.btn-shop {
+  background-color: red;
+} */
 
-div {
+nav > div {
   display: block;
 }
 .nav-bar {
@@ -19,8 +34,10 @@ div {
   top: 0;
   width: 100%;
   display: block;
-  height: 2rem;
+  height: 5em;
   font-size: 1.5rem;
+  background-color: rgb(209, 205, 205);
+  z-index: 9999;
 }
 
 .cntr {
@@ -51,6 +68,7 @@ li {
 
 .nav-logo {
   width: 7.5rem;
+  background-color: tr;
 }
 
 .nav-list {
@@ -84,11 +102,10 @@ a {
 .split {
   display: flex;
   align-items: center;
-  padding: 2rem;
+  padding: 7.5rem;
 }
 
-div > img,
-div {
+.pic {
   padding: 2rem;
 }
 
@@ -97,9 +114,78 @@ section > div > img {
 }
 
 .title {
-  padding: 0 2rem 2rem 2rem;
+  padding: 0 2rem 4rem 2rem;
   font-size: 2.5rem;
 }
 p {
-  line-height: 2rem;
+  line-height: 2.5rem;
+  font-size: 1.5rem;
+}
+
+.facts-box {
+  display: flex;
+  background-color: black;
+  color: gray;
+  padding: 0 7.5rem;
+  justify-content: space-between;
+}
+
+.facts {
+  width: 100%;
+  background-color: black;
+}
+
+.p-one,
+.p-two,
+.p-three {
+  display: block;
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+.p-one {
+  padding: 2rem;
+  border-top: var(--border);
+  border-bottom: var(--border);
+  border-left: var(--border);
+  border-right: 2px red solid;
+}
+
+.p-two {
+  padding: 2rem;
+  border-top: var(--border);
+  border-bottom: var(--border);
+  border-right: 2px red solid;
+  border-left: 2px red solid;
+}
+
+.p-three {
+  padding: 2rem;
+  border-top: var(--border);
+  border-bottom: var(--border);
+  border-right: var(--border);
+  border-left: 2px red solid;
+}
+
+.facts-title {
+  color: red;
+  font-size: 2rem;
+}
+
+.cntr > p {
+  padding: 2rem;
+  font-size: 2.5rem;
+}
+
+.quote-one,
+.quote-two {
+  font-family: 'Azeret Mono', monospace;
+  color: gray;
+}
+
+h3 {
+  text-align: center;
+  padding: 2rem;
+  font-size: 2rem;
+  align-items: center;
 }
