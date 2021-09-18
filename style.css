@@ -193,10 +193,10 @@ h3 {
 .pictwo {
   border: 5px solid #fff;
   border-radius: 3px;
-  height: 400px;
+  height: 18rem;
   margin: 20px;
   position: absolute;
-  width: 600px;
+  width: 27rem;
   box-shadow: 6px 6px 24px 0px #e93636;
   border-radius: 8px;
   border: 7px solid rgb(208, 204, 204);
@@ -218,11 +218,11 @@ h3 {
 }
 
 .container .picone {
-  animation: picone 2.5s;
+  animation: picone 2.5s ease-in-out;
 }
 
 .container .pictwo {
-  animation: pictwo 2.5s;
+  animation: pictwo 2.5s ease-in-out;
 }
 
 /*KEYFRAME ANIMATIONS*/
@@ -270,7 +270,7 @@ h3 {
 }
 
 .slides {
-  padding-top: 5rem;
+  padding-top: 7.5rem;
 }
 
 .carousel {
@@ -379,4 +379,24 @@ input:nth-of-type(5):checked ~ main#carousel {
   max-width: 100%;
   border-radius: 8px;
   border: 7px solid rgb(208, 204, 204);
+}
+
+.footer {
+  padding: 2rem;
+  display: flex;
+  font-size: 2rem;
+  justify-content: space-around;
+}
+
+.footer > a {
+  text-decoration: none;
+}
+
+.factoid {
+  position: absolute;
+  text-align: center;
+  padding-top: 35rem;
+  font-family: 'Azeret Mono', monospace;
+  color: gray;
+  font-size: 18px;
 }
